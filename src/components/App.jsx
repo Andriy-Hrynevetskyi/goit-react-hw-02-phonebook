@@ -3,9 +3,7 @@ import { ContactForm } from './ContactForm/ContactForm';
 import { nanoid } from 'nanoid';
 import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
-
 import { Container } from './Container/Container';
-import { findRenderedDOMComponentWithClass } from 'react-dom/test-utils';
 export class App extends Component {
   state = {
     contacts: [
